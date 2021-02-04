@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/favourite" />
+        <item
+            android:id="@+id/nav_day"
+            android:icon="@drawable/ic_brightness_high_black_24dp"
+            android:title="@string/light_theme" />
+        <item
+            android:id="@+id/nav_night"
+            android:icon="@drawable/ic_brightness_3_black_24dp"
+            android:title="@string/dark_theme" />
+    </group>
+
+</menu>

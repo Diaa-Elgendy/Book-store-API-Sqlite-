@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="background_lite">@color/background_lite</item>
+        <item name="background_lite2">@color/background_lite2</item>
+        <item name="text_color">@color/textColorDark</item>
+        <item name="hint">@color/hint</item>
+        <item name="view">@color/view</item>
+
+    </style>
+
+    <!-- Night mode -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="background_dark">@color/textColorDark</item>
+        <item name="background_lite">@color/background_dark</item>
+        <item name="background_lite2">@color/background_dark2</item>
+        <item name="text_color">@color/textColorLight</item>
+        <item name="hint">@color/hint</item>
+        <item name="view">#c7c7d1</item>
+
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">?attr/text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewMore">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="item">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">3dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
+        <item name="android:background">@color/transparent</item>
+
+    </style>
+
+    <style name="item2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:layout_marginStart">3dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/transparent</item>
+
+    </style>
+</resources>
